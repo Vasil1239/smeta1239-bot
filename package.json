@@ -1,0 +1,19 @@
+{
+  "name": "smeta1239-bot",
+  "version": "1.0.0",
+  "description": "Autonomous multilingual Telegram bot for renovation cost estimation (@smeta1239_bot)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "echo 'Serverless: nothing to run locally. Deploy to Vercel.'",
+    "check": "for f in api/*.js lib/*.js; do node --check \"$f\" && echo OK: $f; done"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "docx": "^9.0.2",
+    "pdfkit": "^0.15.0"
+  }
+}

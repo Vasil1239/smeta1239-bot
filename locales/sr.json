@@ -1,0 +1,136 @@
+{
+  "language_name": "Srpski",
+  "flag": "🇷🇸",
+  "welcome": {
+    "greeting": "Zdravo! Ja sam bot za procenu troškova @smeta1239_bot.",
+    "intro": "Brzo ću sastaviti preliminarnu procenu troškova renoviranja za bilo koju zemlju i grad.",
+    "trial_notice": "Imaš 30 dana besplatnog punog pristupa.",
+    "how_to_start": "Pritisni dugme ispod i opiši šta treba da se uradi."
+  },
+  "menu": {
+    "new_estimate": "🧮 Nova procena",
+    "my_estimates": "📁 Moje procene",
+    "add_work": "➕ Dodaj poziciju",
+    "subscription": "⭐ Pretplata",
+    "precise_estimate": "📋 Naruči preciznu procenu",
+    "help": "❓ Pomoć",
+    "language": "🌐 Jezik",
+    "referral": "🎁 Pozovi prijatelja",
+    "promo": "🎟 Promo kod"
+  },
+  "estimate": {
+    "ask_task": "📝 Opiši šta treba da se uradi. Na primer:\n\n• Renoviranje stana 65 m²: demontaža, keramika u kupatilu, elektrika i vodovod.\n• Krečenje zidova i zamena poda.\n• Podno grejanje 6 m² u kupatilu.",
+    "ask_location": "📍 Unesi državu i grad. Na primer: Srbija, Beograd",
+    "ask_area": "📐 Unesi ukupnu površinu objekta u m²:",
+    "ask_object_type": "🏠 Kakav je to objekat?",
+    "object_apartment": "Stan",
+    "object_house": "Kuća",
+    "object_commercial": "Poslovni prostor",
+    "object_other": "Ostalo",
+    "recognizing": "🔍 Prepoznajem radove...",
+    "estimate_ready": "✅ Procena je spremna!",
+    "no_price_for_city": "Za grad {city} još uvek nema posebnih cena. Koristi se osnovna cena za državu {country}.",
+    "no_price_at_all": "Potrebno pojašnjenje",
+    "price_level_min": "💰 Minimum",
+    "price_level_recommended": "⭐ Preporučeno",
+    "price_level_max": "🔝 Maksimum",
+    "price_level_custom": "✏️ Sopstvena cena",
+    "range_mode_economy": "💵 Ekonomično",
+    "range_mode_recommended": "⭐ Preporučeno",
+    "range_mode_max": "🔝 Vrhunsko",
+    "range_mode_custom": "🎛 Podesi ručno",
+    "total_labor": "Radovi",
+    "total_materials": "Materijal",
+    "total_reserve": "Rezerva 10%",
+    "grand_total": "UKUPNO",
+    "disclaimer": "Ovo je preliminarni obračun. Konačna cena zavisi od stanja objekta, složenosti radova, materijala i merenja na licu mesta.",
+    "location_label": "Lokacija",
+    "checked_label": "Provereno",
+    "object_label": "Objekat",
+    "volume_label": "Količina",
+    "range_label": "Opseg",
+    "selected_label": "Izabrano",
+    "source_label": "Izvor"
+  },
+  "actions": {
+    "edit": "✏️ Izmeni",
+    "add_work": "➕ Dodaj poziciju",
+    "remove_work": "🗑 Ukloni poziciju",
+    "change_quantity": "🔢 Promeni količinu",
+    "change_price": "💰 Promeni cenu",
+    "change_location": "📍 Promeni grad",
+    "download_word": "📄 Word",
+    "download_pdf": "📕 PDF",
+    "copy_text": "📋 Kopiraj tekst",
+    "save": "💾 Sačuvaj",
+    "back": "◀️ Nazad",
+    "back_to_menu": "🏠 Glavni meni",
+    "cancel": "❌ Otkaži",
+    "confirm": "✅ Potvrdi",
+    "yes": "Da",
+    "no": "Ne"
+  },
+  "custom_work": {
+    "not_found": "🔍 Pozicija nije pronađena u katalogu.",
+    "ask_unit": "Navedi jedinicu mere (m², kom, tačka, m³, m'):",
+    "ask_quantity": "Navedi količinu:",
+    "added_no_price": "✅ Pozicija je dodata u procenu. Cena zahteva pojašnjenje.",
+    "similar_suggestion": "Da li ste mislili:",
+    "keep_custom": "Zadrži moju poziciju"
+  },
+  "subscription": {
+    "trial_active": "🎁 Besplatni period aktivan do {date}. Preostalo dana: {days}.",
+    "paid_active": "⭐ Plaćena pretplata ({plan}) aktivna do {date}. Preostalo dana: {days}.",
+    "expired": "❌ Pristup je istekao {date}. Produži uz Stars da nastaviš.",
+    "reminder_7d": "⏰ Preostala je nedelja besplatnog pristupa.\n\nVaš pristup važi do {date}. Vaši gradovi, radovi, cene i procene su sačuvani.",
+    "reminder_2d": "⚠️ Besplatni pristup ističe za 2 dana.\n\nNemojte izgubiti mogućnost pravljenja novih procena i menjanja cena.",
+    "reminder_0d": "🔒 Pristup je istekao.\n\nVaše procene i podešavanja su sačuvani. Produžite pristup za 30 dana i nastavite sa radom.",
+    "plans_title": "Izaberite tarifu:",
+    "plan_basic": "Basic — 30 dana",
+    "plan_pro": "PRO — 90 dana (popust 11%)",
+    "plan_lifetime": "LIFETIME — zauvek",
+    "buy_button": "⭐ Kupi za {stars} Stars",
+    "payment_success": "✅ Uplata primljena! Pristup produžen do {date}.",
+    "payment_failed": "❌ Greška u plaćanju. Pokušajte ponovo."
+  },
+  "referral": {
+    "title": "🎁 Preporuči program",
+    "description": "Pozovite prijatelje — dobijte +14 dana besplatno za svakog ko se pridruži preko vašeg linka.",
+    "your_link": "Vaš link:",
+    "invited_count": "Pozvanih prijatelja: {count}",
+    "bonus_earned": "Osvojenih bonus dana: {days}"
+  },
+  "promo": {
+    "title": "🎟 Promo kod",
+    "ask_code": "Unesite promo kod:",
+    "activated": "✅ Promo kod aktiviran! Dodato dana: {days}",
+    "invalid": "❌ Promo kod nije važeći ili je već iskorišćen.",
+    "expired": "❌ Promo kod je istekao."
+  },
+  "precise_request": {
+    "title": "📋 Zahtev za preciznu procenu",
+    "intro": "Pošaljite fotografije objekta, osnovu i opišite željene rokove. Menadžer će vas kontaktirati.",
+    "ask_photos": "Pošaljite fotografije (može više):",
+    "ask_deadline": "Željeni rokovi:",
+    "submitted": "✅ Zahtev je poslat. Menadžer {support} će vas kontaktirati u najkraćem roku."
+  },
+  "errors": {
+    "generic": "Nešto je pošlo naopako. Pokušajte ponovo.",
+    "rate_limit": "Previše zahteva. Sačekajte minut.",
+    "unauthorized": "Nemate pristup ovoj funkciji.",
+    "location_not_found": "Nije moguće prepoznati lokaciju. Unesite u formatu: Država, Grad",
+    "ai_unavailable": "AI je trenutno nedostupan. Opišite radove ručno sa jedinicom i količinom."
+  },
+  "help": {
+    "title": "❓ Pomoć",
+    "text": "Ja sam bot za brzu procenu troškova renoviranja.\n\n📝 Kako se koristi:\n1. Pritisnite „Nova procena“\n2. Opišite radove i navedite grad\n3. Dobijte spremnu procenu sa cenovnim opsezima\n4. Uredite ili izvezite u Word/PDF\n\n🎁 30 dana besplatno, zatim 299 Stars/mesec.\n\nPodrška: {support}"
+  },
+  "units": {
+    "m2": "m²",
+    "m3": "m³",
+    "linear_m": "m'",
+    "piece": "kom",
+    "point": "tačka",
+    "trip": "tura"
+  }
+}

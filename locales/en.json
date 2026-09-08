@@ -1,0 +1,136 @@
+{
+  "language_name": "English",
+  "flag": "🇬🇧",
+  "welcome": {
+    "greeting": "Hi! I'm the renovation estimator bot @smeta1239_bot.",
+    "intro": "I'll quickly draft a preliminary estimate for renovation works in any country and city.",
+    "trial_notice": "You have 30 days of free full access.",
+    "how_to_start": "Tap the button below and describe what needs to be done."
+  },
+  "menu": {
+    "new_estimate": "🧮 New estimate",
+    "my_estimates": "📁 My estimates",
+    "add_work": "➕ Add work item",
+    "subscription": "⭐ Subscription",
+    "precise_estimate": "📋 Order a detailed estimate",
+    "help": "❓ Help",
+    "language": "🌐 Language",
+    "referral": "🎁 Invite a friend",
+    "promo": "🎟 Promo code"
+  },
+  "estimate": {
+    "ask_task": "📝 Describe what needs to be done. For example:\n\n• 65 m² apartment renovation: demolition, bathroom tiling, electrical and plumbing.\n• Paint the walls and replace the flooring.\n• Underfloor heating 6 m² in the bathroom.",
+    "ask_location": "📍 Enter country and city. For example: Serbia, Belgrade",
+    "ask_area": "📐 Enter the total area of the property in m²:",
+    "ask_object_type": "🏠 What type of property is this?",
+    "object_apartment": "Apartment",
+    "object_house": "House",
+    "object_commercial": "Commercial",
+    "object_other": "Other",
+    "recognizing": "🔍 Recognizing works...",
+    "estimate_ready": "✅ Estimate is ready!",
+    "no_price_for_city": "No dedicated rates for {city} yet. Using the base country rate for {country}.",
+    "no_price_at_all": "Needs clarification",
+    "price_level_min": "💰 Minimum",
+    "price_level_recommended": "⭐ Recommended",
+    "price_level_max": "🔝 Maximum",
+    "price_level_custom": "✏️ Custom price",
+    "range_mode_economy": "💵 Budget",
+    "range_mode_recommended": "⭐ Recommended",
+    "range_mode_max": "🔝 Premium",
+    "range_mode_custom": "🎛 Adjust manually",
+    "total_labor": "Labor",
+    "total_materials": "Materials",
+    "total_reserve": "Contingency 10%",
+    "grand_total": "TOTAL",
+    "disclaimer": "This is a preliminary calculation. The final cost depends on the condition of the property, complexity of works, materials and on-site survey.",
+    "location_label": "Location",
+    "checked_label": "Verified",
+    "object_label": "Property",
+    "volume_label": "Quantity",
+    "range_label": "Range",
+    "selected_label": "Selected",
+    "source_label": "Source"
+  },
+  "actions": {
+    "edit": "✏️ Edit",
+    "add_work": "➕ Add work item",
+    "remove_work": "🗑 Remove item",
+    "change_quantity": "🔢 Change quantity",
+    "change_price": "💰 Change price",
+    "change_location": "📍 Change city",
+    "download_word": "📄 Word",
+    "download_pdf": "📕 PDF",
+    "copy_text": "📋 Copy text",
+    "save": "💾 Save",
+    "back": "◀️ Back",
+    "back_to_menu": "🏠 Main menu",
+    "cancel": "❌ Cancel",
+    "confirm": "✅ Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "custom_work": {
+    "not_found": "🔍 Work item not found in the catalog.",
+    "ask_unit": "Specify the unit of measurement (m², pcs, point, m³, lin.m):",
+    "ask_quantity": "Specify the quantity:",
+    "added_no_price": "✅ Work item added to the estimate. Price needs clarification.",
+    "similar_suggestion": "Did you mean:",
+    "keep_custom": "Keep my custom work item"
+  },
+  "subscription": {
+    "trial_active": "🎁 Free trial active until {date}. Days remaining: {days}.",
+    "paid_active": "⭐ Paid subscription ({plan}) active until {date}. Days remaining: {days}.",
+    "expired": "❌ Access ended on {date}. Renew with Stars to continue.",
+    "reminder_7d": "⏰ One week of free access remaining.\n\nYour access is valid until {date}. Your cities, work items, prices and estimates are saved.",
+    "reminder_2d": "⚠️ Free access ends in 2 days.\n\nDon't lose the ability to create new estimates and change prices.",
+    "reminder_0d": "🔒 Access has ended.\n\nYour estimates and settings are saved. Extend access for 30 days and keep working.",
+    "plans_title": "Choose a plan:",
+    "plan_basic": "Basic — 30 days",
+    "plan_pro": "PRO — 90 days (11% off)",
+    "plan_lifetime": "LIFETIME — forever",
+    "buy_button": "⭐ Buy for {stars} Stars",
+    "payment_success": "✅ Payment received! Access extended until {date}.",
+    "payment_failed": "❌ Payment failed. Please try again."
+  },
+  "referral": {
+    "title": "🎁 Referral program",
+    "description": "Invite friends — get +14 free days for each one who joins via your link.",
+    "your_link": "Your link:",
+    "invited_count": "Friends invited: {count}",
+    "bonus_earned": "Bonus days earned: {days}"
+  },
+  "promo": {
+    "title": "🎟 Promo code",
+    "ask_code": "Enter promo code:",
+    "activated": "✅ Promo code activated! Days added: {days}",
+    "invalid": "❌ Promo code is invalid or already used.",
+    "expired": "❌ Promo code has expired."
+  },
+  "precise_request": {
+    "title": "📋 Detailed estimate request",
+    "intro": "Send photos of the property, floor plan and describe your desired timeline. A manager will get in touch.",
+    "ask_photos": "Send photos (multiple allowed):",
+    "ask_deadline": "Desired timeline:",
+    "submitted": "✅ Request submitted. Manager {support} will get in touch shortly."
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "rate_limit": "Too many requests. Wait a minute.",
+    "unauthorized": "You don't have access to this feature.",
+    "location_not_found": "Couldn't recognize the location. Enter it as: Country, City",
+    "ai_unavailable": "AI is temporarily unavailable. Describe the work manually with unit and quantity."
+  },
+  "help": {
+    "title": "❓ Help",
+    "text": "I'm a renovation estimator bot for quickly calculating the cost of renovation works.\n\n📝 How to use:\n1. Tap \"New estimate\"\n2. Describe the works and specify the city\n3. Get a ready estimate with price ranges\n4. Edit or export to Word/PDF\n\n🎁 30 days free, then 299 Stars/month.\n\nSupport: {support}"
+  },
+  "units": {
+    "m2": "m²",
+    "m3": "m³",
+    "linear_m": "lin.m",
+    "piece": "pcs",
+    "point": "point",
+    "trip": "trip"
+  }
+}

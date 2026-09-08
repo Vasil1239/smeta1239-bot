@@ -1,0 +1,136 @@
+{
+  "language_name": "Italiano",
+  "flag": "🇮🇹",
+  "welcome": {
+    "greeting": "Ciao! Sono il bot preventivatore @smeta1239_bot.",
+    "intro": "Ti preparo rapidamente un preventivo preliminare per lavori di ristrutturazione in qualsiasi paese e città.",
+    "trial_notice": "Hai 30 giorni di accesso completo gratuito.",
+    "how_to_start": "Premi il pulsante qui sotto e descrivi cosa bisogna fare."
+  },
+  "menu": {
+    "new_estimate": "🧮 Nuovo preventivo",
+    "my_estimates": "📁 I miei preventivi",
+    "add_work": "➕ Aggiungi voce",
+    "subscription": "⭐ Abbonamento",
+    "precise_estimate": "📋 Richiedi preventivo dettagliato",
+    "help": "❓ Aiuto",
+    "language": "🌐 Lingua",
+    "referral": "🎁 Invita un amico",
+    "promo": "🎟 Codice promozionale"
+  },
+  "estimate": {
+    "ask_task": "📝 Descrivi cosa bisogna fare. Ad esempio:\n\n• Ristrutturazione appartamento 65 m²: demolizioni, piastrelle in bagno, elettrico e idraulico.\n• Tinteggiare le pareti e cambiare il pavimento.\n• Riscaldamento a pavimento 6 m² in bagno.",
+    "ask_location": "📍 Indica paese e città. Ad esempio: Italia, Milano",
+    "ask_area": "📐 Indica la superficie totale dell'immobile in m²:",
+    "ask_object_type": "🏠 Che tipo di immobile è?",
+    "object_apartment": "Appartamento",
+    "object_house": "Villa",
+    "object_commercial": "Locale commerciale",
+    "object_other": "Altro",
+    "recognizing": "🔍 Riconoscimento lavori...",
+    "estimate_ready": "✅ Preventivo pronto!",
+    "no_price_for_city": "Per la città {city} non ci sono ancora prezzi dedicati. Viene usato il prezzo base del paese {country}.",
+    "no_price_at_all": "Da chiarire",
+    "price_level_min": "💰 Minimo",
+    "price_level_recommended": "⭐ Consigliato",
+    "price_level_max": "🔝 Massimo",
+    "price_level_custom": "✏️ Prezzo personalizzato",
+    "range_mode_economy": "💵 Economico",
+    "range_mode_recommended": "⭐ Consigliato",
+    "range_mode_max": "🔝 Premium",
+    "range_mode_custom": "🎛 Regola manualmente",
+    "total_labor": "Manodopera",
+    "total_materials": "Materiali",
+    "total_reserve": "Imprevisti 10%",
+    "grand_total": "TOTALE",
+    "disclaimer": "Questo è un calcolo preliminare. Il costo finale dipende dallo stato dell'immobile, dalla complessità dei lavori, dai materiali e dal sopralluogo.",
+    "location_label": "Località",
+    "checked_label": "Verificato",
+    "object_label": "Immobile",
+    "volume_label": "Quantità",
+    "range_label": "Intervallo",
+    "selected_label": "Selezionato",
+    "source_label": "Fonte"
+  },
+  "actions": {
+    "edit": "✏️ Modifica",
+    "add_work": "➕ Aggiungi voce",
+    "remove_work": "🗑 Rimuovi voce",
+    "change_quantity": "🔢 Modifica quantità",
+    "change_price": "💰 Modifica prezzo",
+    "change_location": "📍 Cambia città",
+    "download_word": "📄 Word",
+    "download_pdf": "📕 PDF",
+    "copy_text": "📋 Copia testo",
+    "save": "💾 Salva",
+    "back": "◀️ Indietro",
+    "back_to_menu": "🏠 Menu principale",
+    "cancel": "❌ Annulla",
+    "confirm": "✅ Conferma",
+    "yes": "Sì",
+    "no": "No"
+  },
+  "custom_work": {
+    "not_found": "🔍 Voce non trovata nel catalogo.",
+    "ask_unit": "Indica l'unità di misura (m², pz, punto, m³, ml):",
+    "ask_quantity": "Indica la quantità:",
+    "added_no_price": "✅ Voce aggiunta al preventivo. Il prezzo va chiarito.",
+    "similar_suggestion": "Forse intendevi:",
+    "keep_custom": "Mantieni la mia voce"
+  },
+  "subscription": {
+    "trial_active": "🎁 Periodo gratuito attivo fino al {date}. Giorni rimanenti: {days}.",
+    "paid_active": "⭐ Abbonamento a pagamento ({plan}) attivo fino al {date}. Giorni rimanenti: {days}.",
+    "expired": "❌ L'accesso è terminato il {date}. Rinnova con Stars per continuare.",
+    "reminder_7d": "⏰ Resta una settimana di accesso gratuito.\n\nIl tuo accesso è valido fino al {date}. Le tue città, lavori, prezzi e preventivi sono salvati.",
+    "reminder_2d": "⚠️ L'accesso gratuito termina tra 2 giorni.\n\nNon perdere la possibilità di creare nuovi preventivi e modificare i prezzi.",
+    "reminder_0d": "🔒 L'accesso è terminato.\n\nI tuoi preventivi e le impostazioni sono salvati. Estendi l'accesso di 30 giorni e continua a lavorare.",
+    "plans_title": "Scegli un piano:",
+    "plan_basic": "Basic — 30 giorni",
+    "plan_pro": "PRO — 90 giorni (sconto 11%)",
+    "plan_lifetime": "LIFETIME — per sempre",
+    "buy_button": "⭐ Acquista per {stars} Stars",
+    "payment_success": "✅ Pagamento ricevuto! Accesso esteso fino al {date}.",
+    "payment_failed": "❌ Errore di pagamento. Riprova."
+  },
+  "referral": {
+    "title": "🎁 Programma referral",
+    "description": "Invita gli amici — ottieni +14 giorni gratis per ogni persona che si iscrive tramite il tuo link.",
+    "your_link": "Il tuo link:",
+    "invited_count": "Amici invitati: {count}",
+    "bonus_earned": "Giorni bonus ottenuti: {days}"
+  },
+  "promo": {
+    "title": "🎟 Codice promozionale",
+    "ask_code": "Inserisci il codice promozionale:",
+    "activated": "✅ Codice attivato! Giorni aggiunti: {days}",
+    "invalid": "❌ Il codice non è valido o è già stato usato.",
+    "expired": "❌ Il codice promozionale è scaduto."
+  },
+  "precise_request": {
+    "title": "📋 Richiesta di preventivo dettagliato",
+    "intro": "Invia foto dell'immobile, la planimetria e descrivi i tempi desiderati. Un referente ti contatterà.",
+    "ask_photos": "Invia foto (anche più di una):",
+    "ask_deadline": "Tempi desiderati:",
+    "submitted": "✅ Richiesta inviata. Il referente {support} ti contatterà a breve."
+  },
+  "errors": {
+    "generic": "Qualcosa è andato storto. Riprova.",
+    "rate_limit": "Troppe richieste. Attendi un minuto.",
+    "unauthorized": "Non hai accesso a questa funzione.",
+    "location_not_found": "Impossibile riconoscere la località. Inserisci nel formato: Paese, Città",
+    "ai_unavailable": "L'IA è temporaneamente non disponibile. Descrivi il lavoro manualmente indicando unità e quantità."
+  },
+  "help": {
+    "title": "❓ Aiuto",
+    "text": "Sono un bot preventivatore per calcolare rapidamente il costo dei lavori di ristrutturazione.\n\n📝 Come usarlo:\n1. Premi «Nuovo preventivo»\n2. Descrivi i lavori e indica la città\n3. Ricevi un preventivo pronto con fasce di prezzo\n4. Modificalo o esportalo in Word/PDF\n\n🎁 30 giorni gratis, poi 299 Stars/mese.\n\nSupporto: {support}"
+  },
+  "units": {
+    "m2": "m²",
+    "m3": "m³",
+    "linear_m": "ml",
+    "piece": "pz",
+    "point": "punto",
+    "trip": "viaggio"
+  }
+}

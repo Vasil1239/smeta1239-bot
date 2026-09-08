@@ -1,0 +1,136 @@
+{
+  "language_name": "中文",
+  "flag": "🇨🇳",
+  "welcome": {
+    "greeting": "你好！我是装修报价机器人 @smeta1239_bot。",
+    "intro": "我可以为任何国家和城市快速生成装修工程的初步报价。",
+    "trial_notice": "你有 30 天免费完整使用权限。",
+    "how_to_start": "点击下方按钮，描述需要做什么。"
+  },
+  "menu": {
+    "new_estimate": "🧮 新建报价",
+    "my_estimates": "📁 我的报价",
+    "add_work": "➕ 添加工程项",
+    "subscription": "⭐ 订阅",
+    "precise_estimate": "📋 申请精确报价",
+    "help": "❓ 帮助",
+    "language": "🌐 语言",
+    "referral": "🎁 邀请好友",
+    "promo": "🎟 优惠码"
+  },
+  "estimate": {
+    "ask_task": "📝 描述需要做什么。例如：\n\n• 65 平米公寓装修：拆除、卫生间贴砖、水电改造。\n• 刷墙、换地板。\n• 卫生间 6 平米地暖。",
+    "ask_location": "📍 请输入国家和城市。例如：中国，北京",
+    "ask_area": "📐 请输入房屋总面积（平方米）：",
+    "ask_object_type": "🏠 是什么类型的物业？",
+    "object_apartment": "公寓",
+    "object_house": "别墅",
+    "object_commercial": "商铺",
+    "object_other": "其他",
+    "recognizing": "🔍 正在识别工程项...",
+    "estimate_ready": "✅ 报价已生成！",
+    "no_price_for_city": "暂无 {city} 的单独价格，使用 {country} 的基础价格。",
+    "no_price_at_all": "需要确认",
+    "price_level_min": "💰 最低",
+    "price_level_recommended": "⭐ 推荐",
+    "price_level_max": "🔝 最高",
+    "price_level_custom": "✏️ 自定义价格",
+    "range_mode_economy": "💵 经济型",
+    "range_mode_recommended": "⭐ 推荐型",
+    "range_mode_max": "🔝 高端型",
+    "range_mode_custom": "🎛 手动调整",
+    "total_labor": "人工",
+    "total_materials": "材料",
+    "total_reserve": "备用金 10%",
+    "grand_total": "合计",
+    "disclaimer": "这是初步估算。最终价格取决于房屋状况、工程复杂度、材料以及现场量测。",
+    "location_label": "地点",
+    "checked_label": "已核实",
+    "object_label": "物业",
+    "volume_label": "工程量",
+    "range_label": "价格区间",
+    "selected_label": "已选择",
+    "source_label": "来源"
+  },
+  "actions": {
+    "edit": "✏️ 编辑",
+    "add_work": "➕ 添加工程项",
+    "remove_work": "🗑 删除工程项",
+    "change_quantity": "🔢 修改工程量",
+    "change_price": "💰 修改价格",
+    "change_location": "📍 更改城市",
+    "download_word": "📄 Word",
+    "download_pdf": "📕 PDF",
+    "copy_text": "📋 复制文本",
+    "save": "💾 保存",
+    "back": "◀️ 返回",
+    "back_to_menu": "🏠 主菜单",
+    "cancel": "❌ 取消",
+    "confirm": "✅ 确认",
+    "yes": "是",
+    "no": "否"
+  },
+  "custom_work": {
+    "not_found": "🔍 目录中未找到该工程项。",
+    "ask_unit": "请指定计量单位（㎡、件、点位、m³、米）：",
+    "ask_quantity": "请指定数量：",
+    "added_no_price": "✅ 工程项已加入报价。价格需要确认。",
+    "similar_suggestion": "您是不是想找：",
+    "keep_custom": "保留我的工程项"
+  },
+  "subscription": {
+    "trial_active": "🎁 免费期有效至 {date}，剩余天数：{days}。",
+    "paid_active": "⭐ 付费订阅（{plan}）有效至 {date}，剩余天数：{days}。",
+    "expired": "❌ 访问已于 {date} 到期。请使用 Stars 续订以继续使用。",
+    "reminder_7d": "⏰ 免费访问还剩一周。\n\n您的访问权限有效至 {date}。您的城市、工程项、价格和报价均已保存。",
+    "reminder_2d": "⚠️ 免费访问将在 2 天后到期。\n\n请不要错失创建新报价和修改价格的机会。",
+    "reminder_0d": "🔒 访问权限已到期。\n\n您的报价和设置已保存。续订 30 天即可继续使用。",
+    "plans_title": "请选择套餐：",
+    "plan_basic": "Basic — 30 天",
+    "plan_pro": "PRO — 90 天（优惠 11%）",
+    "plan_lifetime": "LIFETIME — 永久",
+    "buy_button": "⭐ 使用 {stars} Stars 购买",
+    "payment_success": "✅ 付款已收到！访问权限延长至 {date}。",
+    "payment_failed": "❌ 付款失败，请重试。"
+  },
+  "referral": {
+    "title": "🎁 推荐计划",
+    "description": "邀请好友——每有一位通过您的链接加入，即可获得 +14 天免费使用。",
+    "your_link": "您的链接：",
+    "invited_count": "已邀请好友：{count}",
+    "bonus_earned": "已获得奖励天数：{days}"
+  },
+  "promo": {
+    "title": "🎟 优惠码",
+    "ask_code": "请输入优惠码：",
+    "activated": "✅ 优惠码已激活！增加天数：{days}",
+    "invalid": "❌ 优惠码无效或已被使用。",
+    "expired": "❌ 优惠码已过期。"
+  },
+  "precise_request": {
+    "title": "📋 精确报价申请",
+    "intro": "请发送物业照片、户型图，并说明期望工期。经理将与您联系。",
+    "ask_photos": "请发送照片（可发送多张）：",
+    "ask_deadline": "期望工期：",
+    "submitted": "✅ 申请已提交。经理 {support} 将尽快与您联系。"
+  },
+  "errors": {
+    "generic": "出现错误，请重试。",
+    "rate_limit": "请求过多，请稍候一分钟。",
+    "unauthorized": "您无权使用此功能。",
+    "location_not_found": "无法识别地点。请按以下格式输入：国家，城市",
+    "ai_unavailable": "AI 暂时不可用。请手动描述工程项，并注明计量单位和数量。"
+  },
+  "help": {
+    "title": "❓ 帮助",
+    "text": "我是一款装修报价机器人，可快速计算装修工程的费用。\n\n📝 使用方法：\n1. 点击「新建报价」\n2. 描述工程并指定城市\n3. 获取带价格区间的完整报价\n4. 编辑或导出为 Word/PDF\n\n🎁 30 天免费，之后 299 Stars/月。\n\n客服：{support}"
+  },
+  "units": {
+    "m2": "㎡",
+    "m3": "m³",
+    "linear_m": "米",
+    "piece": "件",
+    "point": "点位",
+    "trip": "车次"
+  }
+}

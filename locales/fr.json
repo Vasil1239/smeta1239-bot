@@ -1,0 +1,136 @@
+{
+  "language_name": "Français",
+  "flag": "🇫🇷",
+  "welcome": {
+    "greeting": "Bonjour ! Je suis le bot d'estimation @smeta1239_bot.",
+    "intro": "Je rédige rapidement un devis préliminaire pour des travaux de rénovation dans n'importe quel pays et ville.",
+    "trial_notice": "Tu bénéficies de 30 jours d'accès complet gratuit.",
+    "how_to_start": "Appuie sur le bouton ci-dessous et décris ce qu'il faut faire."
+  },
+  "menu": {
+    "new_estimate": "🧮 Nouveau devis",
+    "my_estimates": "📁 Mes devis",
+    "add_work": "➕ Ajouter un poste",
+    "subscription": "⭐ Abonnement",
+    "precise_estimate": "📋 Commander un devis détaillé",
+    "help": "❓ Aide",
+    "language": "🌐 Langue",
+    "referral": "🎁 Inviter un ami",
+    "promo": "🎟 Code promo"
+  },
+  "estimate": {
+    "ask_task": "📝 Décris ce qu'il faut faire. Par exemple :\n\n• Rénovation d'appartement 65 m² : démolition, carrelage salle de bain, électricité et plomberie.\n• Peindre les murs et changer le sol.\n• Plancher chauffant 6 m² dans la salle de bain.",
+    "ask_location": "📍 Indique le pays et la ville. Par exemple : France, Paris",
+    "ask_area": "📐 Indique la surface totale du bien en m² :",
+    "ask_object_type": "🏠 Quel type de bien s'agit-il ?",
+    "object_apartment": "Appartement",
+    "object_house": "Maison",
+    "object_commercial": "Local commercial",
+    "object_other": "Autre",
+    "recognizing": "🔍 Reconnaissance des travaux...",
+    "estimate_ready": "✅ Devis prêt !",
+    "no_price_for_city": "Pas encore de tarifs propres à {city}. Le tarif de base du pays {country} est utilisé.",
+    "no_price_at_all": "À préciser",
+    "price_level_min": "💰 Minimum",
+    "price_level_recommended": "⭐ Recommandé",
+    "price_level_max": "🔝 Maximum",
+    "price_level_custom": "✏️ Prix personnalisé",
+    "range_mode_economy": "💵 Économique",
+    "range_mode_recommended": "⭐ Recommandé",
+    "range_mode_max": "🔝 Haut de gamme",
+    "range_mode_custom": "🎛 Ajuster manuellement",
+    "total_labor": "Main-d'œuvre",
+    "total_materials": "Matériaux",
+    "total_reserve": "Aléas 10 %",
+    "grand_total": "TOTAL",
+    "disclaimer": "Ceci est un calcul préliminaire. Le coût final dépend de l'état du bien, de la complexité des travaux, des matériaux et du métré sur place.",
+    "location_label": "Localisation",
+    "checked_label": "Vérifié",
+    "object_label": "Bien",
+    "volume_label": "Quantité",
+    "range_label": "Fourchette",
+    "selected_label": "Sélectionné",
+    "source_label": "Source"
+  },
+  "actions": {
+    "edit": "✏️ Modifier",
+    "add_work": "➕ Ajouter un poste",
+    "remove_work": "🗑 Supprimer le poste",
+    "change_quantity": "🔢 Changer la quantité",
+    "change_price": "💰 Changer le prix",
+    "change_location": "📍 Changer de ville",
+    "download_word": "📄 Word",
+    "download_pdf": "📕 PDF",
+    "copy_text": "📋 Copier le texte",
+    "save": "💾 Enregistrer",
+    "back": "◀️ Retour",
+    "back_to_menu": "🏠 Menu principal",
+    "cancel": "❌ Annuler",
+    "confirm": "✅ Confirmer",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "custom_work": {
+    "not_found": "🔍 Poste introuvable dans le catalogue.",
+    "ask_unit": "Indique l'unité de mesure (m², u, point, m³, ml) :",
+    "ask_quantity": "Indique la quantité :",
+    "added_no_price": "✅ Poste ajouté au devis. Le prix doit être précisé.",
+    "similar_suggestion": "Vouliez-vous dire :",
+    "keep_custom": "Conserver mon poste"
+  },
+  "subscription": {
+    "trial_active": "🎁 Période gratuite active jusqu'au {date}. Jours restants : {days}.",
+    "paid_active": "⭐ Abonnement payant ({plan}) actif jusqu'au {date}. Jours restants : {days}.",
+    "expired": "❌ L'accès s'est terminé le {date}. Renouvelle avec des Stars pour continuer.",
+    "reminder_7d": "⏰ Il reste une semaine d'accès gratuit.\n\nVotre accès est valide jusqu'au {date}. Vos villes, travaux, prix et devis sont sauvegardés.",
+    "reminder_2d": "⚠️ L'accès gratuit se termine dans 2 jours.\n\nNe perdez pas la possibilité de créer de nouveaux devis et de modifier les prix.",
+    "reminder_0d": "🔒 L'accès est terminé.\n\nVos devis et vos réglages sont sauvegardés. Prolongez l'accès de 30 jours et continuez à travailler.",
+    "plans_title": "Choisissez une formule :",
+    "plan_basic": "Basic — 30 jours",
+    "plan_pro": "PRO — 90 jours (-11 %)",
+    "plan_lifetime": "LIFETIME — à vie",
+    "buy_button": "⭐ Acheter pour {stars} Stars",
+    "payment_success": "✅ Paiement reçu ! Accès prolongé jusqu'au {date}.",
+    "payment_failed": "❌ Échec du paiement. Réessayez."
+  },
+  "referral": {
+    "title": "🎁 Programme de parrainage",
+    "description": "Invitez vos amis — obtenez +14 jours gratuits pour chaque personne qui rejoint via votre lien.",
+    "your_link": "Votre lien :",
+    "invited_count": "Amis invités : {count}",
+    "bonus_earned": "Jours bonus obtenus : {days}"
+  },
+  "promo": {
+    "title": "🎟 Code promo",
+    "ask_code": "Saisissez le code promo :",
+    "activated": "✅ Code activé ! Jours ajoutés : {days}",
+    "invalid": "❌ Code promo invalide ou déjà utilisé.",
+    "expired": "❌ Le code promo a expiré."
+  },
+  "precise_request": {
+    "title": "📋 Demande de devis détaillé",
+    "intro": "Envoyez des photos du bien, le plan et décrivez les délais souhaités. Un chargé de projet vous contactera.",
+    "ask_photos": "Envoyez des photos (plusieurs possibles) :",
+    "ask_deadline": "Délais souhaités :",
+    "submitted": "✅ Demande envoyée. Le chargé de projet {support} vous contactera très prochainement."
+  },
+  "errors": {
+    "generic": "Une erreur est survenue. Réessayez.",
+    "rate_limit": "Trop de requêtes. Attendez une minute.",
+    "unauthorized": "Vous n'avez pas accès à cette fonctionnalité.",
+    "location_not_found": "Impossible de reconnaître la localisation. Saisissez au format : Pays, Ville",
+    "ai_unavailable": "L'IA est temporairement indisponible. Décrivez le poste manuellement en indiquant l'unité et la quantité."
+  },
+  "help": {
+    "title": "❓ Aide",
+    "text": "Je suis un bot d'estimation pour calculer rapidement le coût des travaux de rénovation.\n\n📝 Comment l'utiliser :\n1. Appuyez sur « Nouveau devis »\n2. Décrivez les travaux et indiquez la ville\n3. Recevez un devis prêt avec des fourchettes de prix\n4. Modifiez-le ou exportez-le en Word/PDF\n\n🎁 30 jours gratuits, puis 299 Stars/mois.\n\nSupport : {support}"
+  },
+  "units": {
+    "m2": "m²",
+    "m3": "m³",
+    "linear_m": "ml",
+    "piece": "u",
+    "point": "point",
+    "trip": "voyage"
+  }
+}

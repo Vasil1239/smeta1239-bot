@@ -1,0 +1,136 @@
+{
+  "language_name": "Deutsch",
+  "flag": "🇩🇪",
+  "welcome": {
+    "greeting": "Hallo! Ich bin der Kalkulationsbot @smeta1239_bot.",
+    "intro": "Ich erstelle schnell eine vorläufige Kostenschätzung für Renovierungsarbeiten in jedem Land und jeder Stadt.",
+    "trial_notice": "Du hast 30 Tage kostenlosen Vollzugang.",
+    "how_to_start": "Tippe auf den Button unten und beschreibe, was gemacht werden soll."
+  },
+  "menu": {
+    "new_estimate": "🧮 Neue Kalkulation",
+    "my_estimates": "📁 Meine Kalkulationen",
+    "add_work": "➕ Position hinzufügen",
+    "subscription": "⭐ Abonnement",
+    "precise_estimate": "📋 Detailkalkulation anfragen",
+    "help": "❓ Hilfe",
+    "language": "🌐 Sprache",
+    "referral": "🎁 Freund einladen",
+    "promo": "🎟 Gutscheincode"
+  },
+  "estimate": {
+    "ask_task": "📝 Beschreibe, was gemacht werden soll. Zum Beispiel:\n\n• Wohnungssanierung 65 m²: Rückbau, Fliesen im Bad, Elektrik und Sanitär.\n• Wände streichen und Boden erneuern.\n• Fußbodenheizung 6 m² im Bad.",
+    "ask_location": "📍 Gib Land und Stadt an. Zum Beispiel: Deutschland, Berlin",
+    "ask_area": "📐 Gib die Gesamtfläche des Objekts in m² an:",
+    "ask_object_type": "🏠 Um was für ein Objekt handelt es sich?",
+    "object_apartment": "Wohnung",
+    "object_house": "Haus",
+    "object_commercial": "Gewerbeobjekt",
+    "object_other": "Sonstiges",
+    "recognizing": "🔍 Arbeiten werden erkannt...",
+    "estimate_ready": "✅ Kalkulation fertig!",
+    "no_price_for_city": "Für die Stadt {city} liegen noch keine gesonderten Preise vor. Es wird der Basispreis für das Land {country} verwendet.",
+    "no_price_at_all": "Klärung erforderlich",
+    "price_level_min": "💰 Minimum",
+    "price_level_recommended": "⭐ Empfohlen",
+    "price_level_max": "🔝 Maximum",
+    "price_level_custom": "✏️ Eigener Preis",
+    "range_mode_economy": "💵 Sparsam",
+    "range_mode_recommended": "⭐ Empfohlen",
+    "range_mode_max": "🔝 Premium",
+    "range_mode_custom": "🎛 Manuell einstellen",
+    "total_labor": "Arbeiten",
+    "total_materials": "Material",
+    "total_reserve": "Reserve 10 %",
+    "grand_total": "GESAMT",
+    "disclaimer": "Dies ist eine vorläufige Berechnung. Die endgültigen Kosten hängen vom Zustand des Objekts, dem Umfang der Arbeiten, den Materialien und dem Aufmaß vor Ort ab.",
+    "location_label": "Standort",
+    "checked_label": "Geprüft",
+    "object_label": "Objekt",
+    "volume_label": "Menge",
+    "range_label": "Preisspanne",
+    "selected_label": "Ausgewählt",
+    "source_label": "Quelle"
+  },
+  "actions": {
+    "edit": "✏️ Bearbeiten",
+    "add_work": "➕ Position hinzufügen",
+    "remove_work": "🗑 Position entfernen",
+    "change_quantity": "🔢 Menge ändern",
+    "change_price": "💰 Preis ändern",
+    "change_location": "📍 Stadt ändern",
+    "download_word": "📄 Word",
+    "download_pdf": "📕 PDF",
+    "copy_text": "📋 Text kopieren",
+    "save": "💾 Speichern",
+    "back": "◀️ Zurück",
+    "back_to_menu": "🏠 Hauptmenü",
+    "cancel": "❌ Abbrechen",
+    "confirm": "✅ Bestätigen",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "custom_work": {
+    "not_found": "🔍 Position nicht im Katalog gefunden.",
+    "ask_unit": "Gib die Maßeinheit an (m², Stk, Punkt, m³, lfm):",
+    "ask_quantity": "Gib die Menge an:",
+    "added_no_price": "✅ Position zur Kalkulation hinzugefügt. Der Preis muss geklärt werden.",
+    "similar_suggestion": "Meintest du:",
+    "keep_custom": "Eigene Position beibehalten"
+  },
+  "subscription": {
+    "trial_active": "🎁 Kostenloser Zeitraum aktiv bis {date}. Verbleibende Tage: {days}.",
+    "paid_active": "⭐ Bezahltes Abo ({plan}) aktiv bis {date}. Verbleibende Tage: {days}.",
+    "expired": "❌ Der Zugang ist am {date} abgelaufen. Verlängere mit Stars, um weiterzumachen.",
+    "reminder_7d": "⏰ Es bleibt noch eine Woche kostenloser Zugang.\n\nDein Zugang gilt bis {date}. Deine Städte, Arbeiten, Preise und Kalkulationen bleiben gespeichert.",
+    "reminder_2d": "⚠️ Der kostenlose Zugang endet in 2 Tagen.\n\nVerliere nicht die Möglichkeit, neue Kalkulationen zu erstellen und Preise zu ändern.",
+    "reminder_0d": "🔒 Der Zugang ist abgelaufen.\n\nDeine Kalkulationen und Einstellungen bleiben gespeichert. Verlängere den Zugang um 30 Tage und arbeite weiter.",
+    "plans_title": "Tarif wählen:",
+    "plan_basic": "Basic — 30 Tage",
+    "plan_pro": "PRO — 90 Tage (11 % Rabatt)",
+    "plan_lifetime": "LIFETIME — für immer",
+    "buy_button": "⭐ Für {stars} Stars kaufen",
+    "payment_success": "✅ Zahlung eingegangen! Zugang verlängert bis {date}.",
+    "payment_failed": "❌ Zahlungsfehler. Bitte erneut versuchen."
+  },
+  "referral": {
+    "title": "🎁 Empfehlungsprogramm",
+    "description": "Lade Freunde ein — erhalte +14 Tage gratis für jeden, der über deinen Link beitritt.",
+    "your_link": "Dein Link:",
+    "invited_count": "Eingeladene Freunde: {count}",
+    "bonus_earned": "Erhaltene Bonustage: {days}"
+  },
+  "promo": {
+    "title": "🎟 Gutscheincode",
+    "ask_code": "Gib den Gutscheincode ein:",
+    "activated": "✅ Gutschein aktiviert! Gutgeschriebene Tage: {days}",
+    "invalid": "❌ Der Gutscheincode ist ungültig oder wurde bereits verwendet.",
+    "expired": "❌ Der Gutscheincode ist abgelaufen."
+  },
+  "precise_request": {
+    "title": "📋 Anfrage für Detailkalkulation",
+    "intro": "Sende Fotos des Objekts, den Grundriss und beschreibe den gewünschten Zeitrahmen. Ein Manager wird sich bei dir melden.",
+    "ask_photos": "Sende Fotos (mehrere möglich):",
+    "ask_deadline": "Gewünschter Zeitrahmen:",
+    "submitted": "✅ Anfrage gesendet. Der Manager {support} wird sich in Kürze bei dir melden."
+  },
+  "errors": {
+    "generic": "Etwas ist schiefgelaufen. Bitte erneut versuchen.",
+    "rate_limit": "Zu viele Anfragen. Bitte eine Minute warten.",
+    "unauthorized": "Du hast keinen Zugriff auf diese Funktion.",
+    "location_not_found": "Standort konnte nicht erkannt werden. Bitte im Format eingeben: Land, Stadt",
+    "ai_unavailable": "KI ist vorübergehend nicht verfügbar. Beschreibe die Arbeit manuell mit Einheit und Menge."
+  },
+  "help": {
+    "title": "❓ Hilfe",
+    "text": "Ich bin ein Kalkulationsbot zur schnellen Kostenberechnung von Renovierungsarbeiten.\n\n📝 Anleitung:\n1. Tippe auf „Neue Kalkulation“\n2. Beschreibe die Arbeiten und gib die Stadt an\n3. Erhalte eine fertige Kalkulation mit Preisspannen\n4. Bearbeite oder exportiere sie als Word/PDF\n\n🎁 30 Tage kostenlos, danach 299 Stars/Monat.\n\nSupport: {support}"
+  },
+  "units": {
+    "m2": "m²",
+    "m3": "m³",
+    "linear_m": "lfm",
+    "piece": "Stk",
+    "point": "Punkt",
+    "trip": "Fahrt"
+  }
+}

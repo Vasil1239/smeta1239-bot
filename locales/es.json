@@ -1,0 +1,136 @@
+{
+  "language_name": "Español",
+  "flag": "🇪🇸",
+  "welcome": {
+    "greeting": "¡Hola! Soy el bot presupuestador @smeta1239_bot.",
+    "intro": "Te haré rápidamente un presupuesto preliminar de reformas para cualquier país y ciudad.",
+    "trial_notice": "Tienes 30 días de acceso completo gratis.",
+    "how_to_start": "Pulsa el botón de abajo y describe qué hay que hacer."
+  },
+  "menu": {
+    "new_estimate": "🧮 Nuevo presupuesto",
+    "my_estimates": "📁 Mis presupuestos",
+    "add_work": "➕ Añadir partida",
+    "subscription": "⭐ Suscripción",
+    "precise_estimate": "📋 Pedir presupuesto detallado",
+    "help": "❓ Ayuda",
+    "language": "🌐 Idioma",
+    "referral": "🎁 Invitar a un amigo",
+    "promo": "🎟 Código promocional"
+  },
+  "estimate": {
+    "ask_task": "📝 Describe qué hay que hacer. Por ejemplo:\n\n• Reforma de piso de 65 m²: demolición, alicatado del baño, electricidad y fontanería.\n• Pintar paredes y cambiar el suelo.\n• Suelo radiante 6 m² en el baño.",
+    "ask_location": "📍 Indica país y ciudad. Por ejemplo: España, Madrid",
+    "ask_area": "📐 Indica la superficie total del inmueble en m²:",
+    "ask_object_type": "🏠 ¿Qué tipo de inmueble es?",
+    "object_apartment": "Piso",
+    "object_house": "Casa",
+    "object_commercial": "Local comercial",
+    "object_other": "Otro",
+    "recognizing": "🔍 Reconociendo trabajos...",
+    "estimate_ready": "✅ ¡Presupuesto listo!",
+    "no_price_for_city": "Todavía no hay tarifas específicas para {city}. Se usan las tarifas base del país {country}.",
+    "no_price_at_all": "Requiere aclaración",
+    "price_level_min": "💰 Mínimo",
+    "price_level_recommended": "⭐ Recomendado",
+    "price_level_max": "🔝 Máximo",
+    "price_level_custom": "✏️ Precio personalizado",
+    "range_mode_economy": "💵 Económico",
+    "range_mode_recommended": "⭐ Recomendado",
+    "range_mode_max": "🔝 Premium",
+    "range_mode_custom": "🎛 Ajustar manualmente",
+    "total_labor": "Mano de obra",
+    "total_materials": "Materiales",
+    "total_reserve": "Imprevistos 10%",
+    "grand_total": "TOTAL",
+    "disclaimer": "Este es un cálculo preliminar. El coste final depende del estado del inmueble, la complejidad de los trabajos, los materiales y la visita técnica.",
+    "location_label": "Ubicación",
+    "checked_label": "Verificado",
+    "object_label": "Inmueble",
+    "volume_label": "Cantidad",
+    "range_label": "Rango",
+    "selected_label": "Seleccionado",
+    "source_label": "Fuente"
+  },
+  "actions": {
+    "edit": "✏️ Editar",
+    "add_work": "➕ Añadir partida",
+    "remove_work": "🗑 Eliminar partida",
+    "change_quantity": "🔢 Cambiar cantidad",
+    "change_price": "💰 Cambiar precio",
+    "change_location": "📍 Cambiar ciudad",
+    "download_word": "📄 Word",
+    "download_pdf": "📕 PDF",
+    "copy_text": "📋 Copiar texto",
+    "save": "💾 Guardar",
+    "back": "◀️ Atrás",
+    "back_to_menu": "🏠 Menú principal",
+    "cancel": "❌ Cancelar",
+    "confirm": "✅ Confirmar",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "custom_work": {
+    "not_found": "🔍 Partida no encontrada en el catálogo.",
+    "ask_unit": "Indica la unidad de medida (m², ud, punto, m³, ml):",
+    "ask_quantity": "Indica la cantidad:",
+    "added_no_price": "✅ Partida añadida al presupuesto. El precio requiere aclaración.",
+    "similar_suggestion": "Quizás quisiste decir:",
+    "keep_custom": "Mantener mi partida"
+  },
+  "subscription": {
+    "trial_active": "🎁 Periodo gratuito activo hasta el {date}. Días restantes: {days}.",
+    "paid_active": "⭐ Suscripción de pago ({plan}) activa hasta el {date}. Días restantes: {days}.",
+    "expired": "❌ El acceso terminó el {date}. Renueva con Stars para continuar.",
+    "reminder_7d": "⏰ Queda una semana de acceso gratuito.\n\nTu acceso es válido hasta el {date}. Tus ciudades, trabajos, precios y presupuestos están guardados.",
+    "reminder_2d": "⚠️ El acceso gratuito termina en 2 días.\n\nNo pierdas la posibilidad de crear nuevos presupuestos y cambiar precios.",
+    "reminder_0d": "🔒 El acceso ha terminado.\n\nTus presupuestos y ajustes están guardados. Amplía el acceso 30 días y sigue trabajando.",
+    "plans_title": "Elige un plan:",
+    "plan_basic": "Basic — 30 días",
+    "plan_pro": "PRO — 90 días (11% de descuento)",
+    "plan_lifetime": "LIFETIME — para siempre",
+    "buy_button": "⭐ Comprar por {stars} Stars",
+    "payment_success": "✅ ¡Pago recibido! Acceso ampliado hasta el {date}.",
+    "payment_failed": "❌ Error en el pago. Inténtalo de nuevo."
+  },
+  "referral": {
+    "title": "🎁 Programa de referidos",
+    "description": "Invita a tus amigos: consigue +14 días gratis por cada uno que se una con tu enlace.",
+    "your_link": "Tu enlace:",
+    "invited_count": "Amigos invitados: {count}",
+    "bonus_earned": "Días de bonificación conseguidos: {days}"
+  },
+  "promo": {
+    "title": "🎟 Código promocional",
+    "ask_code": "Introduce el código promocional:",
+    "activated": "✅ ¡Código activado! Días añadidos: {days}",
+    "invalid": "❌ El código no es válido o ya se ha usado.",
+    "expired": "❌ El código promocional ha caducado."
+  },
+  "precise_request": {
+    "title": "📋 Solicitud de presupuesto detallado",
+    "intro": "Envía fotos del inmueble, el plano y describe los plazos deseados. Un gestor se pondrá en contacto contigo.",
+    "ask_photos": "Envía fotos (puedes enviar varias):",
+    "ask_deadline": "Plazos deseados:",
+    "submitted": "✅ Solicitud enviada. El gestor {support} se pondrá en contacto contigo en breve."
+  },
+  "errors": {
+    "generic": "Algo salió mal. Inténtalo de nuevo.",
+    "rate_limit": "Demasiadas solicitudes. Espera un minuto.",
+    "unauthorized": "No tienes acceso a esta función.",
+    "location_not_found": "No se ha podido reconocer la ubicación. Introduce en el formato: País, Ciudad",
+    "ai_unavailable": "La IA no está disponible temporalmente. Describe el trabajo manualmente indicando unidad y cantidad."
+  },
+  "help": {
+    "title": "❓ Ayuda",
+    "text": "Soy un bot presupuestador para calcular rápidamente el coste de las reformas.\n\n📝 Cómo usarlo:\n1. Pulsa «Nuevo presupuesto»\n2. Describe los trabajos e indica la ciudad\n3. Recibe un presupuesto listo con rangos de precio\n4. Edítalo o expórtalo a Word/PDF\n\n🎁 30 días gratis, luego 299 Stars/mes.\n\nSoporte: {support}"
+  },
+  "units": {
+    "m2": "m²",
+    "m3": "m³",
+    "linear_m": "ml",
+    "piece": "ud",
+    "point": "punto",
+    "trip": "viaje"
+  }
+}

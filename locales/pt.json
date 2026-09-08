@@ -1,0 +1,136 @@
+{
+  "language_name": "Português",
+  "flag": "🇵🇹",
+  "welcome": {
+    "greeting": "Olá! Sou o bot de orçamento @smeta1239_bot.",
+    "intro": "Preparo rapidamente um orçamento preliminar de obras de renovação para qualquer país e cidade.",
+    "trial_notice": "Tens 30 dias de acesso completo grátis.",
+    "how_to_start": "Toca no botão abaixo e descreve o que precisa ser feito."
+  },
+  "menu": {
+    "new_estimate": "🧮 Novo orçamento",
+    "my_estimates": "📁 Meus orçamentos",
+    "add_work": "➕ Adicionar item",
+    "subscription": "⭐ Subscrição",
+    "precise_estimate": "📋 Pedir orçamento detalhado",
+    "help": "❓ Ajuda",
+    "language": "🌐 Idioma",
+    "referral": "🎁 Convidar um amigo",
+    "promo": "🎟 Código promocional"
+  },
+  "estimate": {
+    "ask_task": "📝 Descreve o que precisa ser feito. Por exemplo:\n\n• Renovação de apartamento 65 m²: demolição, azulejos na casa de banho, eletricidade e canalização.\n• Pintar as paredes e trocar o pavimento.\n• Piso radiante 6 m² na casa de banho.",
+    "ask_location": "📍 Indica o país e a cidade. Por exemplo: Portugal, Lisboa",
+    "ask_area": "📐 Indica a área total do imóvel em m²:",
+    "ask_object_type": "🏠 Que tipo de imóvel é?",
+    "object_apartment": "Apartamento",
+    "object_house": "Moradia",
+    "object_commercial": "Espaço comercial",
+    "object_other": "Outro",
+    "recognizing": "🔍 A reconhecer os trabalhos...",
+    "estimate_ready": "✅ Orçamento pronto!",
+    "no_price_for_city": "Ainda não há preços específicos para a cidade {city}. Está a ser usado o preço base do país {country}.",
+    "no_price_at_all": "A esclarecer",
+    "price_level_min": "💰 Mínimo",
+    "price_level_recommended": "⭐ Recomendado",
+    "price_level_max": "🔝 Máximo",
+    "price_level_custom": "✏️ Preço personalizado",
+    "range_mode_economy": "💵 Económico",
+    "range_mode_recommended": "⭐ Recomendado",
+    "range_mode_max": "🔝 Premium",
+    "range_mode_custom": "🎛 Ajustar manualmente",
+    "total_labor": "Mão de obra",
+    "total_materials": "Materiais",
+    "total_reserve": "Imprevistos 10%",
+    "grand_total": "TOTAL",
+    "disclaimer": "Este é um cálculo preliminar. O custo final depende do estado do imóvel, da complexidade dos trabalhos, dos materiais e da visita técnica.",
+    "location_label": "Localização",
+    "checked_label": "Verificado",
+    "object_label": "Imóvel",
+    "volume_label": "Quantidade",
+    "range_label": "Intervalo",
+    "selected_label": "Selecionado",
+    "source_label": "Fonte"
+  },
+  "actions": {
+    "edit": "✏️ Editar",
+    "add_work": "➕ Adicionar item",
+    "remove_work": "🗑 Remover item",
+    "change_quantity": "🔢 Alterar quantidade",
+    "change_price": "💰 Alterar preço",
+    "change_location": "📍 Alterar cidade",
+    "download_word": "📄 Word",
+    "download_pdf": "📕 PDF",
+    "copy_text": "📋 Copiar texto",
+    "save": "💾 Guardar",
+    "back": "◀️ Voltar",
+    "back_to_menu": "🏠 Menu principal",
+    "cancel": "❌ Cancelar",
+    "confirm": "✅ Confirmar",
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "custom_work": {
+    "not_found": "🔍 Item não encontrado no catálogo.",
+    "ask_unit": "Indica a unidade de medida (m², un, ponto, m³, ml):",
+    "ask_quantity": "Indica a quantidade:",
+    "added_no_price": "✅ Item adicionado ao orçamento. O preço precisa de ser esclarecido.",
+    "similar_suggestion": "Quis dizer:",
+    "keep_custom": "Manter o meu item"
+  },
+  "subscription": {
+    "trial_active": "🎁 Período gratuito ativo até {date}. Dias restantes: {days}.",
+    "paid_active": "⭐ Subscrição paga ({plan}) ativa até {date}. Dias restantes: {days}.",
+    "expired": "❌ O acesso terminou em {date}. Renova com Stars para continuar.",
+    "reminder_7d": "⏰ Falta uma semana de acesso gratuito.\n\nO teu acesso é válido até {date}. As tuas cidades, trabalhos, preços e orçamentos estão guardados.",
+    "reminder_2d": "⚠️ O acesso gratuito termina em 2 dias.\n\nNão percas a possibilidade de criar novos orçamentos e alterar preços.",
+    "reminder_0d": "🔒 O acesso terminou.\n\nOs teus orçamentos e definições estão guardados. Prolonga o acesso por 30 dias e continua o trabalho.",
+    "plans_title": "Escolhe um plano:",
+    "plan_basic": "Basic — 30 dias",
+    "plan_pro": "PRO — 90 dias (desconto 11%)",
+    "plan_lifetime": "LIFETIME — para sempre",
+    "buy_button": "⭐ Comprar por {stars} Stars",
+    "payment_success": "✅ Pagamento recebido! Acesso prolongado até {date}.",
+    "payment_failed": "❌ Erro no pagamento. Tenta novamente."
+  },
+  "referral": {
+    "title": "🎁 Programa de indicações",
+    "description": "Convida amigos — recebe +14 dias grátis por cada pessoa que se junta pelo teu link.",
+    "your_link": "O teu link:",
+    "invited_count": "Amigos convidados: {count}",
+    "bonus_earned": "Dias bónus obtidos: {days}"
+  },
+  "promo": {
+    "title": "🎟 Código promocional",
+    "ask_code": "Introduz o código promocional:",
+    "activated": "✅ Código ativado! Dias adicionados: {days}",
+    "invalid": "❌ Código promocional inválido ou já utilizado.",
+    "expired": "❌ O código promocional expirou."
+  },
+  "precise_request": {
+    "title": "📋 Pedido de orçamento detalhado",
+    "intro": "Envia fotos do imóvel, a planta e descreve os prazos pretendidos. Um gestor entrará em contacto.",
+    "ask_photos": "Envia fotos (podes enviar várias):",
+    "ask_deadline": "Prazos pretendidos:",
+    "submitted": "✅ Pedido enviado. O gestor {support} entrará em contacto em breve."
+  },
+  "errors": {
+    "generic": "Algo correu mal. Tenta novamente.",
+    "rate_limit": "Demasiados pedidos. Aguarda um minuto.",
+    "unauthorized": "Não tens acesso a esta funcionalidade.",
+    "location_not_found": "Não foi possível reconhecer a localização. Introduz no formato: País, Cidade",
+    "ai_unavailable": "A IA está temporariamente indisponível. Descreve o trabalho manualmente indicando unidade e quantidade."
+  },
+  "help": {
+    "title": "❓ Ajuda",
+    "text": "Sou um bot de orçamentação para calcular rapidamente o custo de obras de renovação.\n\n📝 Como usar:\n1. Toca em «Novo orçamento»\n2. Descreve os trabalhos e indica a cidade\n3. Recebe um orçamento pronto com intervalos de preço\n4. Edita ou exporta para Word/PDF\n\n🎁 30 dias grátis, depois 299 Stars/mês.\n\nSuporte: {support}"
+  },
+  "units": {
+    "m2": "m²",
+    "m3": "m³",
+    "linear_m": "ml",
+    "piece": "un",
+    "point": "ponto",
+    "trip": "viagem"
+  }
+}

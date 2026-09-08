@@ -1,0 +1,136 @@
+{
+  "language_name": "Türkçe",
+  "flag": "🇹🇷",
+  "welcome": {
+    "greeting": "Merhaba! Ben keşif botu @smeta1239_bot.",
+    "intro": "Herhangi bir ülke ve şehir için tadilat işlerine hızlıca ön keşif çıkarırım.",
+    "trial_notice": "30 gün ücretsiz tam erişimin var.",
+    "how_to_start": "Aşağıdaki düğmeye bas ve ne yapılması gerektiğini anlat."
+  },
+  "menu": {
+    "new_estimate": "🧮 Yeni keşif",
+    "my_estimates": "📁 Keşiflerim",
+    "add_work": "➕ İş kalemi ekle",
+    "subscription": "⭐ Abonelik",
+    "precise_estimate": "📋 Detaylı keşif talep et",
+    "help": "❓ Yardım",
+    "language": "🌐 Dil",
+    "referral": "🎁 Arkadaş davet et",
+    "promo": "🎟 Promosyon kodu"
+  },
+  "estimate": {
+    "ask_task": "📝 Ne yapılması gerektiğini anlat. Örneğin:\n\n• 65 m² daire tadilatı: söküm, banyo fayansı, elektrik ve sıhhi tesisat.\n• Duvarları boyamak ve zemini değiştirmek.\n• Banyoda 6 m² yerden ısıtma.",
+    "ask_location": "📍 Ülke ve şehir belirt. Örneğin: Türkiye, İstanbul",
+    "ask_area": "📐 Mekanın toplam alanını m² olarak belirt:",
+    "ask_object_type": "🏠 Ne tür bir mekan?",
+    "object_apartment": "Daire",
+    "object_house": "Müstakil ev",
+    "object_commercial": "Ticari mekan",
+    "object_other": "Diğer",
+    "recognizing": "🔍 İşler tanımlanıyor...",
+    "estimate_ready": "✅ Keşif hazır!",
+    "no_price_for_city": "{city} şehri için henüz ayrı fiyat yok. {country} ülkesinin temel fiyatı kullanılıyor.",
+    "no_price_at_all": "Netleştirilmesi gerekiyor",
+    "price_level_min": "💰 Minimum",
+    "price_level_recommended": "⭐ Önerilen",
+    "price_level_max": "🔝 Maksimum",
+    "price_level_custom": "✏️ Özel fiyat",
+    "range_mode_economy": "💵 Ekonomik",
+    "range_mode_recommended": "⭐ Önerilen",
+    "range_mode_max": "🔝 Üst düzey",
+    "range_mode_custom": "🎛 Manuel ayarla",
+    "total_labor": "İşçilik",
+    "total_materials": "Malzeme",
+    "total_reserve": "Yedek pay %10",
+    "grand_total": "GENEL TOPLAM",
+    "disclaimer": "Bu bir ön hesaplamadır. Nihai maliyet mekanın durumuna, işlerin karmaşıklığına, malzemelere ve yerinde ölçüme bağlıdır.",
+    "location_label": "Konum",
+    "checked_label": "Doğrulandı",
+    "object_label": "Mekan",
+    "volume_label": "Miktar",
+    "range_label": "Aralık",
+    "selected_label": "Seçilen",
+    "source_label": "Kaynak"
+  },
+  "actions": {
+    "edit": "✏️ Düzenle",
+    "add_work": "➕ İş kalemi ekle",
+    "remove_work": "🗑 Kalemi sil",
+    "change_quantity": "🔢 Miktarı değiştir",
+    "change_price": "💰 Fiyatı değiştir",
+    "change_location": "📍 Şehri değiştir",
+    "download_word": "📄 Word",
+    "download_pdf": "📕 PDF",
+    "copy_text": "📋 Metni kopyala",
+    "save": "💾 Kaydet",
+    "back": "◀️ Geri",
+    "back_to_menu": "🏠 Ana menü",
+    "cancel": "❌ İptal",
+    "confirm": "✅ Onayla",
+    "yes": "Evet",
+    "no": "Hayır"
+  },
+  "custom_work": {
+    "not_found": "🔍 İş kalemi katalogda bulunamadı.",
+    "ask_unit": "Ölçü birimini belirt (m², adet, nokta, m³, mt):",
+    "ask_quantity": "Miktarı belirt:",
+    "added_no_price": "✅ İş kalemi keşfe eklendi. Fiyatın netleştirilmesi gerekiyor.",
+    "similar_suggestion": "Şunu mu demek istediniz:",
+    "keep_custom": "Kendi kalemimi bırak"
+  },
+  "subscription": {
+    "trial_active": "🎁 Ücretsiz dönem {date} tarihine kadar aktif. Kalan gün: {days}.",
+    "paid_active": "⭐ Ücretli abonelik ({plan}) {date} tarihine kadar aktif. Kalan gün: {days}.",
+    "expired": "❌ Erişim {date} tarihinde sona erdi. Devam etmek için Stars ile yenile.",
+    "reminder_7d": "⏰ Bir hafta ücretsiz erişim kaldı.\n\nErişiminiz {date} tarihine kadar geçerli. Şehirleriniz, işleriniz, fiyatlarınız ve keşifleriniz kaydedildi.",
+    "reminder_2d": "⚠️ Ücretsiz erişim 2 gün sonra sona eriyor.\n\nYeni keşif oluşturma ve fiyat değiştirme imkanını kaybetmeyin.",
+    "reminder_0d": "🔒 Erişim sona erdi.\n\nKeşifleriniz ve ayarlarınız kaydedildi. Erişimi 30 gün uzatın ve çalışmaya devam edin.",
+    "plans_title": "Bir plan seçin:",
+    "plan_basic": "Basic — 30 gün",
+    "plan_pro": "PRO — 90 gün (%11 indirim)",
+    "plan_lifetime": "LIFETIME — sonsuza dek",
+    "buy_button": "⭐ {stars} Stars karşılığı satın al",
+    "payment_success": "✅ Ödeme alındı! Erişim {date} tarihine kadar uzatıldı.",
+    "payment_failed": "❌ Ödeme hatası. Tekrar deneyin."
+  },
+  "referral": {
+    "title": "🎁 Referans programı",
+    "description": "Arkadaşlarını davet et — linkinle katılan her kişi için +14 gün ücretsiz kazan.",
+    "your_link": "Linkin:",
+    "invited_count": "Davet edilen arkadaş: {count}",
+    "bonus_earned": "Kazanılan bonus gün: {days}"
+  },
+  "promo": {
+    "title": "🎟 Promosyon kodu",
+    "ask_code": "Promosyon kodunu girin:",
+    "activated": "✅ Kod aktifleştirildi! Eklenen gün: {days}",
+    "invalid": "❌ Kod geçersiz veya zaten kullanılmış.",
+    "expired": "❌ Promosyon kodunun süresi dolmuş."
+  },
+  "precise_request": {
+    "title": "📋 Detaylı keşif talebi",
+    "intro": "Mekanın fotoğraflarını, planını gönderin ve istenen süreleri belirtin. Yetkilimiz sizinle iletişime geçecek.",
+    "ask_photos": "Fotoğraf gönderin (birden fazla olabilir):",
+    "ask_deadline": "İstenen süre:",
+    "submitted": "✅ Talep gönderildi. Yetkili {support} en kısa sürede sizinle iletişime geçecek."
+  },
+  "errors": {
+    "generic": "Bir şeyler ters gitti. Tekrar deneyin.",
+    "rate_limit": "Çok fazla istek. Bir dakika bekleyin.",
+    "unauthorized": "Bu özelliğe erişiminiz yok.",
+    "location_not_found": "Konum tanınamadı. Şu formatta girin: Ülke, Şehir",
+    "ai_unavailable": "Yapay zeka geçici olarak kullanılamıyor. İşi birim ve miktarı belirterek elle tanımlayın."
+  },
+  "help": {
+    "title": "❓ Yardım",
+    "text": "Tadilat işlerinin maliyetini hızlıca hesaplayan bir keşif botuyum.\n\n📝 Nasıl kullanılır:\n1. «Yeni keşif»e dokunun\n2. İşleri anlatın ve şehri belirtin\n3. Fiyat aralıklarıyla hazır keşif alın\n4. Düzenleyin veya Word/PDF olarak dışa aktarın\n\n🎁 30 gün ücretsiz, sonra ayda 299 Stars.\n\nDestek: {support}"
+  },
+  "units": {
+    "m2": "m²",
+    "m3": "m³",
+    "linear_m": "mt",
+    "piece": "adet",
+    "point": "nokta",
+    "trip": "sefer"
+  }
+}
