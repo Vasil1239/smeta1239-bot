@@ -17,6 +17,10 @@
     "api/profile.js": {
       "maxDuration": 30,
       "memory": 256
+    },
+    "api/getprofile.js": {
+      "maxDuration": 10,
+      "memory": 256
     }
   },
   "crons": [
