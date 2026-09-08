@@ -6,7 +6,6 @@ import { setWebhook, setMyCommands, getMe } from '../lib/telegram.js';
 import { SUPPORTED_LANGUAGES } from '../lib/constants.js';
 import { t } from '../lib/i18n.js';
 
-export const config = { runtime: 'nodejs20.x' };
 
 export default async function handler(req, res) {
   const secret = process.env.CRON_SECRET;

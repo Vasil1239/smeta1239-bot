@@ -7,7 +7,6 @@ import { t } from '../lib/i18n.js';
 import { REMINDER_OFFSETS, normalizeLanguage } from '../lib/constants.js';
 import { planSelector } from '../lib/keyboards.js';
 
-export const config = { runtime: 'nodejs20.x' };
 
 export default async function handler(req, res) {
   // Auth: Vercel's cron sends the header `x-vercel-cron: 1`; also accept ?secret.

@@ -21,7 +21,6 @@ import {
 } from '../lib/constants.js';
 
 // ---- Vercel-specific config ----
-export const config = { runtime: 'nodejs20.x' };
 
 // ---- helpers ----
 
