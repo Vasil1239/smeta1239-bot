@@ -132,5 +132,14 @@
     "piece": "adet",
     "point": "nokta",
     "trip": "sefer"
+  },
+  "commands": {
+    "start": "Başlat / Ana menü",
+    "lang": "Dili değiştir",
+    "plans": "Planlar ve ödeme",
+    "status": "Aboneliğim",
+    "promo": "Promosyon kodu etkinleştir",
+    "referral": "Referans programı",
+    "help": "Yardım ve destek"
   }
 }

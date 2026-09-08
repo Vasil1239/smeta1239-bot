@@ -132,5 +132,14 @@
     "piece": "pz",
     "point": "punto",
     "trip": "viaggio"
+  },
+  "commands": {
+    "start": "Inizia / Menu principale",
+    "lang": "Cambia lingua",
+    "plans": "Piani e pagamento",
+    "status": "Il mio abbonamento",
+    "promo": "Attiva codice promo",
+    "referral": "Programma di referral",
+    "help": "Aiuto e supporto"
   }
 }

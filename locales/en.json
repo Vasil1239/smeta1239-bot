@@ -132,5 +132,14 @@
     "piece": "pcs",
     "point": "point",
     "trip": "trip"
+  },
+  "commands": {
+    "start": "Start / Main menu",
+    "lang": "Change language",
+    "plans": "Plans and payment",
+    "status": "My subscription",
+    "promo": "Activate promo code",
+    "referral": "Referral program",
+    "help": "Help and support"
   }
 }

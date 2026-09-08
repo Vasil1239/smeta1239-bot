@@ -21,6 +21,22 @@
     "api/getprofile.js": {
       "maxDuration": 10,
       "memory": 256
+    },
+    "api/diagnose.js": {
+      "maxDuration": 15,
+      "memory": 256
+    },
+    "api/checkcommands.js": {
+      "maxDuration": 10,
+      "memory": 256
+    },
+    "api/checkprices.js": {
+      "maxDuration": 15,
+      "memory": 256
+    },
+    "api/testestimate.js": {
+      "maxDuration": 30,
+      "memory": 512
     }
   },
   "crons": [

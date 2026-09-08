@@ -132,5 +132,14 @@
     "piece": "u",
     "point": "point",
     "trip": "voyage"
+  },
+  "commands": {
+    "start": "Démarrer / Menu principal",
+    "lang": "Changer de langue",
+    "plans": "Forfaits et paiement",
+    "status": "Mon abonnement",
+    "promo": "Activer un code promo",
+    "referral": "Programme de parrainage",
+    "help": "Aide et support"
   }
 }

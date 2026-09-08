@@ -132,5 +132,14 @@
     "piece": "un",
     "point": "ponto",
     "trip": "viagem"
+  },
+  "commands": {
+    "start": "Iniciar / Menu principal",
+    "lang": "Alterar idioma",
+    "plans": "Planos e pagamento",
+    "status": "Minha assinatura",
+    "promo": "Ativar código promocional",
+    "referral": "Programa de indicação",
+    "help": "Ajuda e suporte"
   }
 }

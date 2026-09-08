@@ -132,5 +132,14 @@
     "piece": "件",
     "point": "点位",
     "trip": "车次"
+  },
+  "commands": {
+    "start": "开始 / 主菜单",
+    "lang": "切换语言",
+    "plans": "套餐与付款",
+    "status": "我的订阅",
+    "promo": "激活优惠码",
+    "referral": "推荐计划",
+    "help": "帮助与支持"
   }
 }

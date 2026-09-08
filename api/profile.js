@@ -102,6 +102,23 @@ export default async function handler(req, res) {
 
   const result = { steps: [] };
 
+  // 0. Set default (no language_code) — Russian is the primary audience fallback.
+  const defaults = PROFILE_TEXTS.ru;
+  const defaultRes = {};
+  try {
+    await _rawCall('setMyName', { name: defaults.name });
+    defaultRes.name = 'ok';
+  } catch (e) { defaultRes.name = `err: ${e.message}`; }
+  try {
+    await _rawCall('setMyShortDescription', { short_description: defaults.short });
+    defaultRes.short = 'ok';
+  } catch (e) { defaultRes.short = `err: ${e.message}`; }
+  try {
+    await _rawCall('setMyDescription', { description: defaults.about });
+    defaultRes.about = 'ok';
+  } catch (e) { defaultRes.about = `err: ${e.message}`; }
+  result.steps.push({ '(default)': defaultRes });
+
   // 1. Set name / short description / description for each language
   for (const [lang, texts] of Object.entries(PROFILE_TEXTS)) {
     const perLang = {};

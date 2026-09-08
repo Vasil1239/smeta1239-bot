@@ -132,5 +132,14 @@
     "piece": "kom",
     "point": "tačka",
     "trip": "tura"
+  },
+  "commands": {
+    "start": "Početak / Glavni meni",
+    "lang": "Promeni jezik",
+    "plans": "Planovi i plaćanje",
+    "status": "Moja pretplata",
+    "promo": "Aktiviraj promo kod",
+    "referral": "Referalni program",
+    "help": "Pomoć i podrška"
   }
 }

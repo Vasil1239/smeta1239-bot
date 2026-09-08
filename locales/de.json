@@ -132,5 +132,14 @@
     "piece": "Stk",
     "point": "Punkt",
     "trip": "Fahrt"
+  },
+  "commands": {
+    "start": "Start / Hauptmenü",
+    "lang": "Sprache ändern",
+    "plans": "Tarife und Zahlung",
+    "status": "Mein Abonnement",
+    "promo": "Aktionscode aktivieren",
+    "referral": "Empfehlungsprogramm",
+    "help": "Hilfe und Support"
   }
 }

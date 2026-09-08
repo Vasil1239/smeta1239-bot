@@ -39,6 +39,26 @@ export default async function handler(req, res) {
   }
 
   const perLangResults = {};
+
+  // First: set default (no language_code) using Russian — fallback for any locale.
+  const defaultLang = 'ru';
+  const defaultCommands = [
+    { command: 'start',    description: t(defaultLang, 'commands.start') },
+    { command: 'lang',     description: t(defaultLang, 'commands.lang') },
+    { command: 'plans',    description: t(defaultLang, 'commands.plans') },
+    { command: 'status',   description: t(defaultLang, 'commands.status') },
+    { command: 'promo',    description: t(defaultLang, 'commands.promo') },
+    { command: 'referral', description: t(defaultLang, 'commands.referral') },
+    { command: 'help',     description: t(defaultLang, 'commands.help') }
+  ];
+  try {
+    await setMyCommands(defaultCommands);
+    perLangResults['(default)'] = 'ok';
+  } catch (e) {
+    perLangResults['(default)'] = `err: ${e.message}`;
+  }
+
+  // Then per-language:
   for (const lang of SUPPORTED_LANGUAGES) {
     const commands = [
       { command: 'start',    description: t(lang, 'commands.start') },
