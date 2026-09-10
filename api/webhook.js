@@ -24,6 +24,11 @@ import {
 
 // ---- helpers ----
 
+function isBetaFreeAccess() {
+  const v = String(process.env.BETA_FREE_ACCESS || '').toLowerCase();
+  return v === '1' || v === 'true' || v === 'yes';
+}
+
 async function readJson(req) {
   if (req.body && typeof req.body === 'object') return req.body;
   if (typeof req.body === 'string') { try { return JSON.parse(req.body); } catch { return {}; } }
@@ -298,6 +303,12 @@ async function handleCallback(cb) {
     return sendSubscriptionStatus(chatId, lang, msgId);
   }
   if (data === 'plans') {
+    if (isBetaFreeAccess()) {
+      await editMessageText(chatId, msgId,
+        '🎁 Бета-режим: все функции сейчас доступны бесплатно. Оплата подключится позже.',
+        { reply_markup: backButton(lang) });
+      return;
+    }
     await editMessageText(chatId, msgId, t(lang, 'plans.pick'), { reply_markup: planSelector(lang) });
     return;
   }
@@ -312,6 +323,13 @@ async function handleCallback(cb) {
     return;
   }
   if (data.startsWith('buy:')) {
+    if (isBetaFreeAccess()) {
+      await answerCallbackQuery(query.id, '🎁 Бета: бесплатно');
+      await sendMessage(chatId,
+        '🎁 Сейчас бот работает в бета-режиме — оплата отключена, доступ бесплатный. Продолжайте пользоваться.',
+        { reply_markup: mainMenu(lang) });
+      return;
+    }
     const planKey = data.split(':')[1];
     try {
       await createInvoice(chatId, planKey, lang);
@@ -536,14 +554,19 @@ async function showMyEstimates(chatId, lang, msgId) {
 
 async function sendSubscriptionStatus(chatId, lang, msgId = null) {
   const s = await getSubscriptionStatus(chatId);
-  const text = s.active
-    ? t(lang, 'subscription.active', {
-        plan: s.plan,
-        days: s.days_left,
-        expires: new Date(s.expires_at).toISOString().slice(0, 10)
-      })
-    : t(lang, 'subscription.expired');
-  const kb = s.active ? backButton(lang) : planSelector(lang);
+  let text;
+  if (s.beta) {
+    text = '🎁 <b>Бета-режим</b>\nДоступ ко всем функциям бесплатно.\nОплата будет подключена позже.';
+  } else if (s.active) {
+    text = t(lang, 'subscription.active', {
+      plan: s.plan,
+      days: s.days_left,
+      expires: new Date(s.expires_at).toISOString().slice(0, 10)
+    });
+  } else {
+    text = t(lang, 'subscription.expired');
+  }
+  const kb = (s.active || s.beta) ? backButton(lang) : planSelector(lang);
   if (msgId) {
     await editMessageText(chatId, msgId, text, { reply_markup: kb });
   } else {
